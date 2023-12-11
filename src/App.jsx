@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./App.css"
-import { LA, NY } from './constants';
+import { LA, NY, pics, models } from './constants';
 import { Slide } from 'react-slideshow-image';
 
 
@@ -27,15 +27,23 @@ function App() {
   }
   const slideImages = [
     {
-      url: '/src/assets/models/model0.jpg',
+      url: models.model0,
       caption: 'Slide 1'
     },
     {
-      url: '/src/assets/models/model1.jpg',
+      url: models.model1,
       caption: 'Slide 2'
     },
     {
-      url: '/src/assets/models/model2.jpg',
+      url: models.model2,
+      caption: 'Slide 3'
+    },
+    {
+      url: models.model3,
+      caption: 'Slide 3'
+    },
+    {
+      url: models.model4,
       caption: 'Slide 3'
     },
   ];
@@ -59,7 +67,7 @@ function App() {
     setActivePic(section+id);
     document.getElementById(section+id).classList.add("selected");
     var artistPic = document.getElementById("artistPic");
-    artistPic.style.setProperty("background", "url(/src/assets/photographers/"+section+id+".jpg)");
+    artistPic.style.setProperty("background", "url("+pics[section+id]+")");
     artistPic.style.setProperty("background-size", "cover");
 
   }

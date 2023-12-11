@@ -1,3 +1,9 @@
+import { LAdirectors0, LAdirectors1, LAphotographer0, LAphotographer1, LAphotographer2, 
+    LAphotographer3, LAphotographer4, LAphotographer5, LAphotographer6, LAphotographer7, 
+    LAstylists0, LAstylists1, LAstylists2, LAstylists3, LAstylists4, 
+    LAmakeUpArtists0, LAmakeUpArtists1, LAmakeUpArtists2, LAmakeUpArtists3, LAhairStylists0, LAhairStylists1, LAhairStylists2, LAhairStylists3, NYdirectors0, NYdirectors1, NYstylists0, NYstylists1, NYhairStylists0, NYhairStylists1, NYmakeUpArtists0, NYmakeUpArtists1, NYphotographer0, NYphotographer2, NYphotographer1} from "../assets/photographers"
+
+import {model0, model1, model2, model3, model4} from '../assets/models'
 
 export const LA = {
     "makeupArtists" : {
@@ -46,6 +52,52 @@ export const LA = {
     }
 }
 
+export const models = {
+    "model0" : model0,
+    "model1" : model1,
+    "model2" : model2,
+    "model3" : model3,
+    "model4" : model4,
+}
+
+export const pics = {
+    "LAdirectors0" : LAdirectors0,
+    "LAdirectors1" : LAdirectors1,
+    "LAphotographer0" : LAphotographer0,
+    "LAphotographer1" : LAphotographer1,
+    "LAphotographer2" : LAphotographer2,
+    "LAphotographer3" : LAphotographer3,
+    "LAphotographer4" : LAphotographer4,
+    "LAphotographer5" : LAphotographer5,
+    "LAphotographer6" : LAphotographer6,
+    "LAphotographer7" : LAphotographer7,
+    "LAstylists0" : LAstylists0,
+    "LAstylists1" : LAstylists1,
+    "LAstylists2" : LAstylists2,
+    "LAstylists3" : LAstylists3,
+    "LAstylists4" : LAstylists4,
+    "LAmakeUpArtists0" : LAmakeUpArtists0,
+    "LAmakeUpArtists1" : LAmakeUpArtists1,
+    "LAmakeUpArtists2" : LAmakeUpArtists2,
+    "LAmakeUpArtists3" : LAmakeUpArtists3,
+    "LAhairStylists0" : LAhairStylists0,
+    "LAhairStylists1" : LAhairStylists1,
+    "LAhairStylists2" : LAhairStylists2,
+    "LAhairStylists3" : LAhairStylists3,
+    "NYdirectors0" : NYdirectors0,
+    "NYdirectors1" : NYdirectors1,
+    "NYstylists0" : NYstylists0,
+    "NYstylists1" : NYstylists1,
+    "NYhairStylists0" : NYhairStylists0,
+    "NYhairStylists1" : NYhairStylists1,
+    "NYmakeUpArtists0" : NYmakeUpArtists0,
+    "NYmakeUpArtists1" : NYmakeUpArtists1,
+    "NYphotographer0" : NYphotographer0,
+    "NYphotographer1" : NYphotographer1,
+    "NYphotographer2" : NYphotographer2,
+
+
+}
 
 export const NY = {
     "makeupArtists" : {
